@@ -3,10 +3,13 @@
 	"scripts": {
 		"dev": "solid-start dev",
 		"build": "solid-start build",
-		"start": "solid-start start"
+		"start": "solid-start start",
+		"typecheck": "tsc",
+		"prepare": "esrun scripts/add-solid-no-check"
 	},
 	"type": "module",
 	"devDependencies": {
+		"@digitak/esrun": "^3.2.16",
 		"@tsconfig/strictest": "^1.0.2",
 		"@types/node": "^18.11.18",
 		"esbuild": "^0.17.3",
