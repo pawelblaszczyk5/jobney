@@ -12,6 +12,7 @@
 	"type": "module",
 	"devDependencies": {
 		"@digitak/esrun": "^3.2.16",
+		"@iconify/json": "^2.2.9",
 		"@routes-gen/solid-start": "^0.1.1",
 		"@tsconfig/strictest": "^1.0.2",
 		"@types/node": "^18.11.18",
@@ -21,6 +22,7 @@
 		"eslint-config-canonical": "^39.1.4",
 		"eslint-plugin-canonical": "^3.2.4",
 		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-solid": "^0.9.3",
 		"eslint-plugin-tailwindcss": "^3.8.0",
 		"postcss": "^8.4.21",
 		"prettier": "^2.8.3",
@@ -28,6 +30,7 @@
 		"solid-start-node": "^0.2.15",
 		"tailwindcss": "^3.2.4",
 		"typescript": "^4.9.4",
+		"unplugin-icons": "^0.15.1",
 		"vite": "^4.0.4"
 	},
 	"dependencies": {
