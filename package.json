@@ -5,6 +5,7 @@
 		"build": "solid-start build",
 		"start": "solid-start start",
 		"typecheck": "tsc",
+		"lint": "eslint . --fix --ignore-path .gitignore",
 		"routes-gen": "routes-gen -d @routes-gen/solid-start",
 		"prepare": "esrun scripts/add-solid-no-check"
 	},
