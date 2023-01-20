@@ -6,7 +6,7 @@ dist
 .netlify
 netlify
 
-# dependencies
+# Dependencies
 /node_modules
 
 # IDEs and editors
@@ -16,7 +16,9 @@ netlify
 *.launch
 .settings/
 
-
 # System Files
 .DS_Store
 Thumbs.db
+
+# Auto-generated
+src/routes.d.ts

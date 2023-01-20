@@ -1,6 +1,6 @@
 module.exports = {
 	ignorePatterns: ['scripts/**/*'],
-	plugins: ['import', 'prettier'],
+	plugins: ['import', 'prettier', 'tailwindcss'],
 	overrides: [
 		{
 			extends: [
@@ -49,6 +49,14 @@ module.exports = {
 				'unicorn/no-array-for-each': 'off',
 				// prettier
 				'prettier/prettier': 'error',
+				// tailwind
+				'tailwindcss/classnames-order': 'error',
+				'tailwindcss/enforces-negative-arbitrary-values': 'error',
+				'tailwindcss/enforces-shorthand': 'error',
+				'tailwindcss/migration-from-tailwind-2': 'error',
+				'tailwindcss/no-arbitrary-value': 'off',
+				'tailwindcss/no-custom-classname': 'error',
+				'tailwindcss/no-contradicting-classname': 'error',
 				// builtin
 				'no-restricted-imports': [
 					'error',
