@@ -8,5 +8,7 @@ type Adapter = {
 };
 
 declare module 'solid-start-vercel' {
-	export = (options: { edge?: boolean; ssr?: boolean }): Adapter => null as Adapter;
+	function adapter(options: { edge?: boolean; ssr?: boolean }): Adapter;
+
+	export = adapter;
 }
