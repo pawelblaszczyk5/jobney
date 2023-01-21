@@ -4,5 +4,5 @@ import Icons from 'unplugin-icons/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	plugins: [solid({ adapter: vercel({ edge: false }) }), Icons({ compiler: 'solid' })],
+	plugins: [solid({ adapter: vercel({ edge: true }) }), Icons({ compiler: 'solid' })],
 });
